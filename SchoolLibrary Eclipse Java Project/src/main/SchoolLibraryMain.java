@@ -6,7 +6,7 @@ import service.MySQLConnectionManager;
 public class SchoolLibraryMain {
 
 	public static void main(String[] args) {
-		MySQLConnectionManager.initMySQLConnection("root","147Pisimisi741","schoollibrary");
+		MySQLConnectionManager.initMySQLConnection("exampleUsername","examplePassword","schoollibrary");
 		MainWindow w = new MainWindow();
 		return;
 	}
